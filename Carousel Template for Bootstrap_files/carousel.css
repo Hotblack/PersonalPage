@@ -8,6 +8,8 @@ body {
 }
 
 
+
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -18,6 +20,11 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
+}
+
+.navbar {
+    background:transparent;
+    color:white;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
