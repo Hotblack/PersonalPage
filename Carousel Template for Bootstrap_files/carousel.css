@@ -7,6 +7,11 @@ body {
   color: #5a5a5a;
 }
 
+#marketing{
+
+  margin-top: 100px;
+
+}
 
 
 
@@ -25,6 +30,7 @@ body {
 .navbar {
     background:transparent;
     color:white;
+
 }
 
 /* Flip around the padding for proper display in narrow viewports */
