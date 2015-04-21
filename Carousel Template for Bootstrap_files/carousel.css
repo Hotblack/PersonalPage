@@ -46,6 +46,9 @@ body {
   width: auto;
 }
 
+ a:hover {
+color: green;  /*Sets the text hover color on navbar*/
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
