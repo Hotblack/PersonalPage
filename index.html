@@ -30,6 +30,12 @@
     <!-- Custom CSS -->
     <link href="./Thumbnail Gallery - Start Bootstrap Template_files/thumbnail-gallery.css" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="./wirelib_files/jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="./wirelib_files/wirelib.js"></script>
+    <script type="text/javascript" src="./wirelib_files/may_2.js"></script>
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -314,7 +320,19 @@
     <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom or what else could it possibly be">Tooltip on bottom</button>
 
    
+    <canvas id="bgcanvas" width="1200" height="500" style="background"s>
+    </canvas>
 
+    <style>
+    #bgcanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+  </style>
       
 
 
