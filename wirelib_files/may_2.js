@@ -15,8 +15,8 @@ $(function generate() {
     canvas = $("#bgcanvas")[0];
     context = canvas.getContext("2d");
 
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    //canvas.width = window.innerWidth;
+    //canvas.height = window.innerHeight;
  
     imageData = context.createImageData(canvas.width, canvas.height);
     
@@ -32,7 +32,9 @@ $(function generate() {
     
     context.putImageData(imageData, 0, 0);
 
-    window.setInterval(automate,100);
+    var rand = Math.random(100,1000);
+
+    window.setInterval(automate,22);
 });
 
 function do_things(){
@@ -143,6 +145,8 @@ function automate (){
             //v2 = v2 + 0.01; 
             console.log("increasing");
             v3 = v3 + 0.01;
+            v2 = v2 + 0.01;
+            v1 = v1 + 0.01;
 
         }
 
@@ -151,6 +155,9 @@ function automate (){
             isMore = true; 
 
             v3 = (Math.abs)(v3 - 0.01);
+            v2 = (Math.abs)(v2 - 0.01);
+            v1 = (Math.abs)(v1 - 0.01);
+
 
         }
 
