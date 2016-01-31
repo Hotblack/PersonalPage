@@ -2,8 +2,8 @@
     var offset_2 = 0.02;
     var offset_3 = 0.04;
 
-    var v1 = 0.2;
-    var v2 = 0.2;
+    var v1 = 0.3;
+    var v2 = 0.3;
     var v3 = 0.2;
 
     var isMore = false;
@@ -32,9 +32,9 @@ $(function generate() {
     
     context.putImageData(imageData, 0, 0);
 
-    var rand = Math.random(100,1000);
+    var rand = Math.random(100,10000);
 
-    window.setInterval(automate,22);
+    window.setInterval(automate,60);
 });
 
 function do_things(){
@@ -145,7 +145,7 @@ function automate (){
             //v2 = v2 + 0.01; 
             console.log("increasing");
             v3 = v3 + 0.01;
-            v2 = v2 + 0.01;
+            v2 = v2 + 0.03;
             v1 = v1 + 0.01;
 
         }
@@ -155,8 +155,8 @@ function automate (){
             isMore = true; 
 
             v3 = (Math.abs)(v3 - 0.01);
-            v2 = (Math.abs)(v2 - 0.01);
-            v1 = (Math.abs)(v1 - 0.01);
+            v2 = (Math.abs)(v2 - 0.03);
+            v1 = (Math.abs)(v1 - 0.03);
 
 
         }
