@@ -24,11 +24,12 @@
 .carousel-caption {
   padding-bottom: 0px;
   z-index: 10;
+  font-size: 30px;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 300px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -40,11 +41,23 @@
 }
 
 .container_about {
-  padding-top: 20px;
+  padding-top: 70px;
   padding-bottom: 20px;
 }
 
 .container_trailer {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#cracks {
+  display: inline-block;
+}
+
+#nikola_header{
+  font-size: 30px;
+}
+
+h1{
+  font-size: 30px;
 }
