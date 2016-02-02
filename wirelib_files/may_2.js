@@ -34,7 +34,7 @@ $(function generate() {
 
     var rand = Math.random(100,10000);
 
-    window.setInterval(automate,60);
+   // window.setInterval(automate,60);
 });
 
 function do_things(){
